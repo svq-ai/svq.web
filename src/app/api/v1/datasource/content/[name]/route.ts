@@ -11,7 +11,7 @@ export async function GET(
   const filePath = path.join(documentsDir, name);
 
   // Guard against path traversal
-  if (!filePath.startsWith(documentsDir + path.sep) && filePath !== documentsDir) {
+  if (!filePath.startsWith(documentsDir + path.sep)) {
     return NextResponse.json(
       { ok: false, error: "Invalid file name" },
       { status: 400 }
