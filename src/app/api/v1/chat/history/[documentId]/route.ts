@@ -7,13 +7,13 @@ export async function GET(
   { params }: { params: Promise<{ documentId: string }> }
 ) {
   const { documentId } = await params;
-  const filePath = path.join(
-    process.cwd(),
-    "public",
-    "mock",
-    "chat",
-    `${documentId}.json`
-  );
+  const chatDir = path.join(process.cwd(), "public", "mock", "chat");
+  const filePath = path.join(chatDir, `${documentId}.json`);
+
+  // Guard against path traversal
+  if (!filePath.startsWith(chatDir + path.sep)) {
+    return NextResponse.json([], { status: 400 });
+  }
 
   try {
     const fileContents = await fs.readFile(filePath, "utf-8");
