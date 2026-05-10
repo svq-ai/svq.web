@@ -7,7 +7,16 @@ export async function GET(
   { params }: { params: Promise<{ name: string }> }
 ) {
   const { name } = await params;
-  const filePath = path.join(process.cwd(), "public", "mock", "documents", name);
+  const documentsDir = path.join(process.cwd(), "public", "mock", "documents");
+  const filePath = path.join(documentsDir, name);
+
+  // Guard against path traversal
+  if (!filePath.startsWith(documentsDir + path.sep) && filePath !== documentsDir) {
+    return NextResponse.json(
+      { ok: false, error: "Invalid file name" },
+      { status: 400 }
+    );
+  }
 
   try {
     const content = await fs.readFile(filePath);
