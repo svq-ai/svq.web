@@ -1,0 +1,30 @@
+[
+  {
+    "id": "msg-dpa-1",
+    "content": "What are the main obligations of a data processor under this agreement?",
+    "timestamp": "2025-05-02T14:30:00.000Z",
+    "role": "user",
+    "documentId": "data_processing_agreement.txt"
+  },
+  {
+    "id": "msg-dpa-2",
+    "content": "Under Section 5 of the Data Processing Agreement, the Processor has several key obligations. They must: (1) Process personal data only on documented instructions from the Controller. (2) Ensure that all authorised persons have committed to confidentiality. (3) Implement appropriate technical and organisational measures as required by Article 32 GDPR, including encryption in transit and at rest, and regular testing of security measures. (4) Respect the conditions for engaging sub-processors. (5) Assist the Controller in complying with obligations under Articles 32–36 GDPR. (6) At the Controller's choice, delete or return all personal data after services end. (7) Make available all information necessary to demonstrate compliance.",
+    "timestamp": "2025-05-02T14:30:28.000Z",
+    "role": "assistant",
+    "documentId": "data_processing_agreement.txt"
+  },
+  {
+    "id": "msg-dpa-3",
+    "content": "What must be included in a personal data breach notification?",
+    "timestamp": "2025-05-02T14:33:00.000Z",
+    "role": "user",
+    "documentId": "data_processing_agreement.txt"
+  },
+  {
+    "id": "msg-dpa-4",
+    "content": "Section 8 of the agreement specifies that breach notifications must include: (a) a description of the nature of the breach, (b) the categories and approximate number of Data Subjects concerned, (c) the categories and approximate number of personal data records concerned, (d) contact details of the Data Protection Officer, (e) the likely consequences of the breach, and (f) measures taken or proposed to address the breach. The Processor must notify the Controller without undue delay after becoming aware of a breach.",
+    "timestamp": "2025-05-02T14:33:15.000Z",
+    "role": "assistant",
+    "documentId": "data_processing_agreement.txt"
+  }
+]

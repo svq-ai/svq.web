@@ -1,0 +1,135 @@
+INFORMATION SECURITY ASSESSMENT REPORT
+=======================================
+Reference: ISA-2025-Q1
+Date: 1 May 2025
+Prepared by: SVQ Security Practice
+
+EXECUTIVE SUMMARY
+-----------------
+This report presents the findings of the information security assessment conducted
+for [Organisation Name] during March–April 2025. The assessment was performed in
+accordance with ISO/IEC 27001:2022 and NIST Cybersecurity Framework v1.1.
+
+Overall Risk Rating: MEDIUM
+
+Critical Findings: 1
+High Findings: 3
+Medium Findings: 7
+Low Findings: 12
+Informational: 5
+
+1. SCOPE
+--------
+The assessment covered:
+  • Corporate network infrastructure
+  • Cloud-hosted applications (AWS, Microsoft Azure)
+  • Mobile device management
+  • Third-party supplier access controls
+  • Employee security awareness
+
+Out of scope: OT/ICS environments, physical security of remote sites.
+
+2. METHODOLOGY
+--------------
+Assessment activities included:
+  • Interviews with key personnel (IT, Legal, HR, Operations)
+  • Technical vulnerability scanning (internal and external)
+  • Review of security policies and procedures
+  • Configuration review of cloud environments
+  • Simulated phishing campaign
+  • Penetration testing of internet-facing applications
+
+Standards referenced:
+  • ISO/IEC 27001:2022 (Annex A controls)
+  • ISO/IEC 27002:2022
+  • NIST CSF v1.1
+  • CIS Controls v8
+
+3. KEY FINDINGS
+---------------
+
+3.1 CRITICAL — Unpatched Remote Code Execution Vulnerability (CVE-2024-XXXX)
+  Risk: Critical | Likelihood: High | Impact: Critical
+  Description: A critical vulnerability was identified in the externally facing
+  VPN appliance. Successful exploitation could allow an unauthenticated attacker
+  to execute arbitrary code.
+  Recommendation: Apply vendor patch immediately. Implement network segmentation
+  as a compensating control. Consider migrating to a Zero Trust architecture.
+
+3.2 HIGH — Multi-Factor Authentication Not Enforced on Cloud Console
+  Risk: High | Likelihood: Medium | Impact: High
+  Description: MFA is not enforced for all administrator accounts accessing the
+  cloud management console. This creates significant risk of account compromise.
+  Recommendation: Enforce MFA for all privileged accounts within 30 days.
+  Implement conditional access policies.
+
+3.3 HIGH — Excessive Privileged Access Rights
+  Risk: High | Likelihood: Medium | Impact: High
+  Description: 34 user accounts were found to hold administrative privileges
+  beyond those required for their roles, violating the principle of least privilege.
+  Recommendation: Conduct access rights review. Implement Privileged Access
+  Management (PAM) solution. Remove unnecessary privileges.
+
+3.4 HIGH — Outdated Security Awareness Training
+  Risk: High | Likelihood: High | Impact: Medium
+  Description: The last mandatory security awareness training was conducted
+  18 months ago. Simulated phishing success rate: 23% (industry benchmark: <10%).
+  Recommendation: Implement monthly phishing simulations. Conduct annual security
+  awareness training. Deploy real-time security awareness coaching.
+
+4. GDPR & DATA PROTECTION FINDINGS
+------------------------------------
+  • Data retention schedules not implemented for 3 key systems
+  • Subject Access Request process lacks documented escalation procedures
+  • Personal data found unencrypted on 2 shared drives
+  • DPA not updated with current Sub-processor list
+
+5. COMPLIANCE SCORECARD
+-------------------------
+  Control Domain              Score    Trend
+  -----------------------------------------
+  Access Control              72%      ↑
+  Cryptography                85%      →
+  Physical Security           91%      →
+  Operations Security         68%      ↑
+  Communications Security     79%      ↑
+  Supplier Relationships      55%      ↓
+  Incident Management         70%      ↑
+  Business Continuity         63%      →
+  Compliance                  74%      ↑
+  -----------------------------------------
+  Overall                     73%      ↑
+
+6. RECOMMENDATIONS PRIORITY MATRIX
+------------------------------------
+  Priority 1 (Immediate — within 7 days):
+    • Patch VPN appliance (Finding 3.1)
+
+  Priority 2 (Short-term — within 30 days):
+    • Enforce MFA on cloud console (Finding 3.2)
+    • Revoke excessive privileges (Finding 3.3)
+
+  Priority 3 (Medium-term — within 90 days):
+    • Refresh security awareness training (Finding 3.4)
+    • Implement data retention schedules
+    • Update DPA Sub-processor list
+
+  Priority 4 (Long-term — within 12 months):
+    • Implement PAM solution
+    • Migrate to Zero Trust architecture
+    • Improve supplier security assessments
+
+7. CONCLUSION
+-------------
+The organisation demonstrates a developing information security posture with strengths
+in physical security and cryptography. Priority focus should be placed on addressing
+the critical VPN vulnerability, strengthening access controls, and improving security
+awareness across the workforce.
+
+A follow-up assessment is recommended in Q3 2025 to validate remediation progress.
+
+DOCUMENT CONTROL
+  Prepared by: SVQ Security Assessment Team
+  Reviewed by: [Reviewer Name]
+  Approved by: [CISO / Senior Responsible Owner]
+  Distribution: CONFIDENTIAL — Management and IT Security teams only

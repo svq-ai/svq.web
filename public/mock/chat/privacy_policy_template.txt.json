@@ -1,0 +1,16 @@
+[
+  {
+    "id": "msg-pp-1",
+    "content": "What rights do users have under this privacy policy?",
+    "timestamp": "2025-05-05T11:00:00.000Z",
+    "role": "user",
+    "documentId": "privacy_policy_template.txt"
+  },
+  {
+    "id": "msg-pp-2",
+    "content": "According to Section 9 of the Privacy Policy Template, under GDPR users have the right to: access their personal data through a Subject Access Request, rectify inaccurate data, request erasure (the 'right to be forgotten'), restrict processing, object to processing, data portability, and to not be subject to solely automated decision-making. Users can exercise these rights by contacting the Data Protection Officer at the email address provided. Users also have the right to lodge a complaint with the supervisory authority, such as the ICO in the UK.",
+    "timestamp": "2025-05-05T11:00:20.000Z",
+    "role": "assistant",
+    "documentId": "privacy_policy_template.txt"
+  }
+]

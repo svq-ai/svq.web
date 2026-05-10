@@ -1,0 +1,115 @@
+DATA PROCESSING AGREEMENT (DPA)
+================================
+Template v1.3 | April 2025
+SVQ Regulatory Intelligence
+
+IMPORTANT: This is a template document. Legal advice should be sought before use.
+
+1. PARTIES
+----------
+This Data Processing Agreement is entered into between:
+
+  Controller: [Insert Controller Name] ("Controller")
+  Address: [Insert Address]
+  Registration Number: [Insert Registration Number]
+
+  Processor: [Insert Processor Name] ("Processor")
+  Address: [Insert Address]
+  Registration Number: [Insert Registration Number]
+
+2. DEFINITIONS
+--------------
+"Personal Data", "Data Subject", "Processing", "Controller", "Processor",
+"Sub-processor" shall have the meanings given in Regulation (EU) 2016/679
+(General Data Protection Regulation or "GDPR").
+
+3. SUBJECT MATTER AND DURATION
+--------------------------------
+3.1 The Processor shall process Personal Data on behalf of the Controller for the
+    purpose described in Schedule 1 of this Agreement.
+
+3.2 Processing shall commence on the Effective Date and shall continue until
+    termination of the Main Agreement, unless earlier terminated.
+
+4. NATURE AND PURPOSE OF PROCESSING
+--------------------------------------
+The Processor is authorised to process Personal Data only:
+  (a) On documented instructions from the Controller.
+  (b) For the purposes specified in Schedule 1.
+  (c) To the extent necessary to provide the services under the Main Agreement.
+
+5. OBLIGATIONS OF THE PROCESSOR
+----------------------------------
+5.1 The Processor shall:
+  (a) Process Personal Data only on documented instructions from the Controller.
+  (b) Ensure that persons authorised to process the Personal Data have committed
+      themselves to confidentiality.
+  (c) Implement appropriate technical and organisational measures (Article 32 GDPR).
+  (d) Respect the conditions for engaging Sub-processors (Articles 28(2) and (4) GDPR).
+  (e) Assist the Controller to ensure compliance with the obligations pursuant to
+      Articles 32 to 36 GDPR.
+  (f) At the choice of the Controller, delete or return all Personal Data after
+      the end of the provision of services.
+  (g) Make available to the Controller all information necessary to demonstrate
+      compliance with this Agreement.
+
+5.2 Security Measures
+  The Processor shall implement at minimum the following technical and organisational measures:
+    • Encryption of Personal Data in transit and at rest
+    • Ongoing confidentiality, integrity, availability and resilience of processing systems
+    • Ability to restore availability and access following a physical or technical incident
+    • Regular testing, assessing, and evaluating of the effectiveness of security measures
+
+6. SUB-PROCESSING
+------------------
+6.1 The Processor shall not engage a Sub-processor without prior specific or general
+    written authorisation of the Controller.
+
+6.2 Where the Processor engages a Sub-processor, it shall impose data protection
+    obligations equivalent to those set out in this Agreement.
+
+6.3 A list of current Sub-processors is provided in Schedule 2.
+
+7. DATA SUBJECT RIGHTS
+-----------------------
+The Processor shall assist the Controller in responding to requests from Data Subjects
+exercising their rights under Chapter III of the GDPR within the timeframes required.
+
+8. PERSONAL DATA BREACHES
+---------------------------
+8.1 The Processor shall notify the Controller without undue delay after becoming aware
+    of a Personal Data Breach.
+
+8.2 Notification shall include at minimum:
+    (a) Description of the nature of the breach
+    (b) Categories and approximate number of Data Subjects concerned
+    (c) Categories and approximate number of Personal Data records concerned
+    (d) Contact details of the Data Protection Officer
+    (e) Likely consequences of the breach
+    (f) Measures taken or proposed
+
+9. DATA TRANSFERS
+------------------
+The Processor shall not transfer Personal Data to a third country or international
+organisation unless required by EU or Member State law or on documented instructions
+from the Controller, and subject to appropriate safeguards.
+
+10. RETURN OR DELETION OF DATA
+--------------------------------
+Upon termination of this Agreement, the Processor shall, at the Controller's choice:
+  (a) Return all Personal Data to the Controller; or
+  (b) Delete all Personal Data and certify such deletion in writing.
+
+SCHEDULE 1 — DESCRIPTION OF PROCESSING
+  Subject matter: [e.g., Cloud-based document management services]
+  Duration: [e.g., Term of the Main Agreement]
+  Nature and purpose: [e.g., Storage, retrieval, and analysis of documents]
+  Type of Personal Data: [e.g., Names, email addresses, document contents]
+  Categories of Data Subjects: [e.g., Employees, customers]
+
+SCHEDULE 2 — LIST OF SUB-PROCESSORS
+  [To be completed by Processor]
+
+SIGNATURES
+  Controller: ___________________________  Date: __________
+  Processor:  ___________________________  Date: __________
