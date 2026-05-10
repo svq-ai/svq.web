@@ -1,0 +1,108 @@
+PRIVACY POLICY TEMPLATE
+========================
+Version 1.2 | April 2025
+SVQ Regulatory Intelligence
+
+IMPORTANT: This is a template. Customise all [bracketed] sections before publishing.
+
+PRIVACY POLICY OF [ORGANISATION NAME]
+
+Last updated: [Date]
+
+1. WHO WE ARE
+-------------
+[Organisation Name] ("[we/us/our]") is the data controller for personal data collected
+through [website/application/service].
+
+Contact: [Data Protection Officer Name]
+Email: [dpo@example.com]
+Address: [Address]
+
+2. WHAT DATA WE COLLECT
+------------------------
+We may collect and process the following categories of personal data:
+
+  Identity Data: first name, last name, username, title
+  Contact Data: email address, telephone number, postal address
+  Technical Data: IP address, browser type, time zone, operating system
+  Usage Data: information about how you use our website or services
+  Communications Data: your preferences in receiving marketing from us
+
+We do not collect Special Category data (e.g., health, biometric, or political data)
+without explicit consent and a valid legal basis under Article 9 GDPR.
+
+3. HOW WE COLLECT DATA
+------------------------
+We collect personal data through:
+  • Direct interactions (forms, account registration, correspondence)
+  • Automated technologies (cookies, server logs)
+  • Third parties (analytics providers, payment processors)
+
+4. LEGAL BASIS FOR PROCESSING
+-------------------------------
+We process personal data under the following legal bases (Article 6 GDPR):
+
+  Consent: Where you have given clear consent.
+  Contract: Where processing is necessary to fulfil a contract with you.
+  Legal obligation: Where processing is required by law.
+  Legitimate interests: Where processing is in our legitimate business interests
+    and not overridden by your data protection rights.
+
+5. HOW WE USE YOUR DATA
+------------------------
+We use personal data for:
+  • Providing and improving our services
+  • Managing our relationship with you
+  • Sending relevant communications (where consent is given)
+  • Complying with legal obligations
+  • Administering and protecting our business
+
+6. DATA SHARING
+---------------
+We share personal data with:
+  • Service providers acting as data processors (e.g., hosting, analytics)
+  • Professional advisers (lawyers, auditors)
+  • Regulators and authorities where required by law
+
+We do not sell personal data to third parties.
+
+7. INTERNATIONAL TRANSFERS
+----------------------------
+Where we transfer personal data outside the UK/EEA, we ensure appropriate safeguards
+are in place, such as Standard Contractual Clauses or adequacy decisions.
+
+8. DATA RETENTION
+------------------
+We retain personal data only as long as necessary for the purposes collected.
+Retention periods are documented in our Records of Processing Activities.
+
+9. YOUR RIGHTS
+--------------
+Under GDPR you have the right to:
+  • Access your personal data (Subject Access Request)
+  • Rectify inaccurate data
+  • Request erasure ("right to be forgotten")
+  • Restrict processing
+  • Object to processing
+  • Data portability
+  • Not be subject to solely automated decision-making
+
+To exercise your rights, contact [dpo@example.com].
+You also have the right to lodge a complaint with the supervisory authority (e.g., ICO).
+
+10. COOKIES
+-----------
+We use cookies and similar technologies. Please see our Cookie Policy [link] for details.
+
+11. CHANGES TO THIS POLICY
+----------------------------
+We may update this policy periodically. We will notify you of significant changes
+by email or prominent notice on our website.
+
+12. CONTACT US
+--------------
+For any queries about this Privacy Policy, contact:
+  [Data Protection Officer]
+  [Organisation Name]
+  [Address]
+  [dpo@example.com]

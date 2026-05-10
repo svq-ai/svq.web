@@ -20,6 +20,7 @@ const Navbar = ({ userName = "Ghulam Ahmed", avatarUrl }: NavbarProps) => {
     const navItems: NavItem[] = [
         { href: "/", label: "Dashboard" },
         { href: "/chat", label: "Chat" },
+        { href: "/graph", label: "Graph" },
         { href: "/data", label: "Data" },
         { href: "/pricing", label: "Pricing" },
         { href: "/settings", label: "Settings" }

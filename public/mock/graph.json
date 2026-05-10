@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "id": "gdpr_compliance_guide.txt",
+      "label": "GDPR Compliance Guide",
+      "type": "document",
+      "x": 200,
+      "y": 160,
+      "size": 4821
+    },
+    {
+      "id": "iso_27001_standard.txt",
+      "label": "ISO 27001 Standard",
+      "type": "document",
+      "x": 620,
+      "y": 160,
+      "size": 5340
+    },
+    {
+      "id": "data_processing_agreement.txt",
+      "label": "Data Processing Agreement",
+      "type": "document",
+      "x": 200,
+      "y": 430,
+      "size": 3670
+    },
+    {
+      "id": "privacy_policy_template.txt",
+      "label": "Privacy Policy Template",
+      "type": "document",
+      "x": 620,
+      "y": 430,
+      "size": 2910
+    },
+    {
+      "id": "security_assessment_report.txt",
+      "label": "Security Assessment Report",
+      "type": "document",
+      "x": 410,
+      "y": 80,
+      "size": 3120
+    },
+    {
+      "id": "entity_gdpr",
+      "label": "GDPR Regulation",
+      "type": "regulation",
+      "x": 410,
+      "y": 295
+    },
+    {
+      "id": "entity_eu",
+      "label": "European Union",
+      "type": "entity",
+      "x": 95,
+      "y": 295
+    },
+    {
+      "id": "entity_data_controller",
+      "label": "Data Controller",
+      "type": "entity",
+      "x": 725,
+      "y": 295
+    },
+    {
+      "id": "entity_iso",
+      "label": "ISO/IEC Standards",
+      "type": "regulation",
+      "x": 410,
+      "y": 510
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "gdpr_compliance_guide.txt",
+      "target": "entity_gdpr",
+      "label": "governed by",
+      "weight": 0.95
+    },
+    {
+      "id": "e2",
+      "source": "data_processing_agreement.txt",
+      "target": "entity_gdpr",
+      "label": "governed by",
+      "weight": 0.90
+    },
+    {
+      "id": "e3",
+      "source": "privacy_policy_template.txt",
+      "target": "entity_gdpr",
+      "label": "governed by",
+      "weight": 0.88
+    },
+    {
+      "id": "e4",
+      "source": "gdpr_compliance_guide.txt",
+      "target": "iso_27001_standard.txt",
+      "label": "references",
+      "weight": 0.85
+    },
+    {
+      "id": "e5",
+      "source": "security_assessment_report.txt",
+      "target": "iso_27001_standard.txt",
+      "label": "based on",
+      "weight": 0.92
+    },
+    {
+      "id": "e6",
+      "source": "gdpr_compliance_guide.txt",
+      "target": "entity_eu",
+      "label": "jurisdiction",
+      "weight": 0.80
+    },
+    {
+      "id": "e7",
+      "source": "data_processing_agreement.txt",
+      "target": "entity_data_controller",
+      "label": "defines",
+      "weight": 0.92
+    },
+    {
+      "id": "e8",
+      "source": "privacy_policy_template.txt",
+      "target": "data_processing_agreement.txt",
+      "label": "references",
+      "weight": 0.70
+    },
+    {
+      "id": "e9",
+      "source": "iso_27001_standard.txt",
+      "target": "entity_data_controller",
+      "label": "applies to",
+      "weight": 0.65
+    },
+    {
+      "id": "e10",
+      "source": "iso_27001_standard.txt",
+      "target": "entity_iso",
+      "label": "part of",
+      "weight": 0.98
+    },
+    {
+      "id": "e11",
+      "source": "security_assessment_report.txt",
+      "target": "gdpr_compliance_guide.txt",
+      "label": "audits",
+      "weight": 0.75
+    }
+  ]
+}

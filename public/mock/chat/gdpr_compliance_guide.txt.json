@@ -1,0 +1,44 @@
+[
+  {
+    "id": "msg-gdpr-1",
+    "content": "What are the key principles of GDPR?",
+    "timestamp": "2025-04-28T10:02:00.000Z",
+    "role": "user",
+    "documentId": "gdpr_compliance_guide.txt"
+  },
+  {
+    "id": "msg-gdpr-2",
+    "content": "According to the GDPR Compliance Guide, there are seven key data protection principles set out in Article 5. These are: (1) Lawfulness, fairness and transparency — processing must have a lawful basis and be transparent. (2) Purpose limitation — data must only be used for specified, explicit purposes. (3) Data minimisation — only collect what is necessary. (4) Accuracy — data must be kept accurate and up to date. (5) Storage limitation — data should not be retained longer than necessary. (6) Integrity and confidentiality — appropriate security measures must be in place. (7) Accountability — the controller must be able to demonstrate compliance with all principles.",
+    "timestamp": "2025-04-28T10:02:15.000Z",
+    "role": "assistant",
+    "documentId": "gdpr_compliance_guide.txt"
+  },
+  {
+    "id": "msg-gdpr-3",
+    "content": "What are the penalties for GDPR non-compliance?",
+    "timestamp": "2025-04-28T10:05:00.000Z",
+    "role": "user",
+    "documentId": "gdpr_compliance_guide.txt"
+  },
+  {
+    "id": "msg-gdpr-4",
+    "content": "The document outlines two tiers of administrative fines for GDPR non-compliance. Less severe violations (such as breaching data protection by design requirements or failing to maintain records of processing activities) can result in fines of up to €10 million or 2% of global annual turnover, whichever is higher. More severe violations — such as breaching the basic principles of processing, failing to respect data subjects' rights, or unlawful international transfers — can result in fines of up to €20 million or 4% of global annual turnover, whichever is higher.",
+    "timestamp": "2025-04-28T10:05:20.000Z",
+    "role": "assistant",
+    "documentId": "gdpr_compliance_guide.txt"
+  },
+  {
+    "id": "msg-gdpr-5",
+    "content": "When must a data breach be reported?",
+    "timestamp": "2025-04-28T10:08:00.000Z",
+    "role": "user",
+    "documentId": "gdpr_compliance_guide.txt"
+  },
+  {
+    "id": "msg-gdpr-6",
+    "content": "Under Article 33, the controller must notify the supervisory authority of a personal data breach without undue delay and, where feasible, not later than 72 hours after becoming aware of the breach. Additionally, Article 34 requires notifying the affected data subjects directly when the breach is likely to result in a high risk to their rights and freedoms. The guide recommends establishing breach detection, internal reporting, and notification procedures as part of your compliance checklist.",
+    "timestamp": "2025-04-28T10:08:18.000Z",
+    "role": "assistant",
+    "documentId": "gdpr_compliance_guide.txt"
+  }
+]

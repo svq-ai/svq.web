@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "documents": [
+    {
+      "name": "gdpr_compliance_guide.txt",
+      "size": 4821,
+      "lastModified": "2025-03-15T09:30:00.000Z",
+      "contentType": "text/plain",
+      "originalFilename": "GDPR Compliance Guide.txt"
+    },
+    {
+      "name": "iso_27001_standard.txt",
+      "size": 5340,
+      "lastModified": "2025-02-20T14:15:00.000Z",
+      "contentType": "text/plain",
+      "originalFilename": "ISO 27001 Standard Overview.txt"
+    },
+    {
+      "name": "data_processing_agreement.txt",
+      "size": 3670,
+      "lastModified": "2025-04-01T11:00:00.000Z",
+      "contentType": "text/plain",
+      "originalFilename": "Data Processing Agreement Template.txt"
+    },
+    {
+      "name": "privacy_policy_template.txt",
+      "size": 2910,
+      "lastModified": "2025-04-10T16:45:00.000Z",
+      "contentType": "text/plain",
+      "originalFilename": "Privacy Policy Template.txt"
+    },
+    {
+      "name": "security_assessment_report.txt",
+      "size": 3120,
+      "lastModified": "2025-05-01T08:00:00.000Z",
+      "contentType": "text/plain",
+      "originalFilename": "Security Assessment Report 2025.txt"
+    }
+  ],
+  "error": null
+}
